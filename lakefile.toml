@@ -1,0 +1,25 @@
+name = "hstzAlternatingGroups"
+version = "0.1.0"
+defaultTargets = ["Statements"]
+
+# Mathlib and TauCeti; the root manifest pins the shared Mathlib for both.
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "aa35a481e5f0cdb3b04a899ead15d6ca7305a624"
+
+[[require]]
+name = "TauCeti"
+git = "https://github.com/TauCetiProject/TauCeti"
+rev = "27c356c590174ac18bf632ad8b2fa92834daf0e3"
+
+[[lean_lib]]
+name = "HSTZ"
+
+[[lean_lib]]
+name = "OAI"
+srcDir = "OpenAITensorSquares"
+moreLeanArgs = ["-DautoImplicit=false", "-DsynthInstance.maxHeartbeats=80000"]
+
+[[lean_lib]]
+name = "Statements"

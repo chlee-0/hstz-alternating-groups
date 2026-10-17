@@ -1,0 +1,146 @@
+import HSTZ.TauCetiIntegration
+import HSTZ.ContainedTarget
+import HSTZ.ParityCapacity
+import HSTZ.AreaBound
+import HSTZ.BoundaryBand
+import HSTZ.BalancePrefix
+import HSTZ.BalancePacking
+import HSTZ.PieriArithmetic
+import HSTZ.CyclicSpan
+import HSTZ.ProjectionLift
+import HSTZ.IndependentTensor
+import HSTZ.SectorCyclic
+import HSTZ.SectorInduction
+import HSTZ.CoordinateFilter
+import HSTZ.PairWords
+import HSTZ.FilteredDual
+import OAI.RepresentationTheory.Saxl.Basic
+
+import HSTZ.WitnessSelectedNonmixed
+import HSTZ.ContainedTargetColumns
+import HSTZ.WordModelEquiv
+import HSTZ.SpechtTensorWords
+import HSTZ.StaircaseFilter
+
+import HSTZ.StaircaseBlockCarrier
+
+import HSTZ.LetterLift
+import HSTZ.PositionRelabel
+import HSTZ.BandPath
+import HSTZ.PathCoefficients
+import HSTZ.StaircaseInducedSupport
+
+import HSTZ.PieriSupport
+
+import HSTZ.PieriBlock
+import HSTZ.OneRowTensor
+import HSTZ.StaircaseBlockInduction
+import HSTZ.TableauAlignment
+import HSTZ.ContainedRestriction
+import HSTZ.MultiplicityInduction
+import HSTZ.BlockCoreAction
+
+import HSTZ.MultiplicityFinite
+
+import OAI.RepresentationTheory.Saxl.SpechtClassification
+
+import HSTZ.ContainedSpechtSupport
+import HSTZ.StaircaseContainedSupport
+import HSTZ.StaircasePrefixSupport
+import HSTZ.StaircaseDominanceSupport
+import HSTZ.StaircaseRightStrip
+import HSTZ.OneBandSource
+import HSTZ.NativeStaircaseCyclic
+import HSTZ.OneBandNativeSupport
+import HSTZ.StaircaseLongRowSupport
+import HSTZ.SignSquareTransport
+import OAI.RepresentationTheory.Saxl.RepeatedProjection
+
+import OAI.RepresentationTheory.Saxl.StaircaseSign
+
+import OAI.RepresentationTheory.Saxl.CyclicTensor
+
+import HSTZ.StaircaseUniversality
+import HSTZ.WitnessCutPositions
+import HSTZ.WitnessMarkedCounts
+import HSTZ.WitnessMarkedRigidity
+import HSTZ.WitnessFilteredCore
+import HSTZ.WitnessColumnPositions
+import HSTZ.WitnessFirstRowRotation
+import HSTZ.WitnessRetainedPair
+import HSTZ.WitnessCoreAlternants
+import HSTZ.WitnessCoreFactorization
+import HSTZ.WitnessNativeCoreSupport
+import HSTZ.WitnessAttachmentWords
+import HSTZ.WitnessComplementFibers
+import HSTZ.WitnessExchangedWords
+import HSTZ.WitnessLowSector
+import HSTZ.WitnessSelectedFactors
+import HSTZ.WitnessNativeAttachmentColumn
+import HSTZ.WitnessSelectedAttachmentSupport
+import HSTZ.WitnessAttachmentOrderedAlternant
+import HSTZ.WitnessAttachmentHCyclic
+import HSTZ.WitnessAttachmentTargetParity
+import HSTZ.WitnessAttachmentTargetSum
+import HSTZ.WitnessAttachmentProductContraction
+import HSTZ.WitnessAttachmentTargetEvenSurvivors
+import HSTZ.WitnessAttachmentHParitySupport
+import HSTZ.WitnessAttachmentColumnParitySupport
+import HSTZ.WitnessMatchedProjection
+import HSTZ.ContainedWitnessPlacement
+import HSTZ.ContainedWitnessContractionProduct
+import HSTZ.ContainedPathDualFlags
+import HSTZ.ContainedMovedWitnessProduct
+import HSTZ.WitnessAttachmentBilinearDetection
+import HSTZ.WordMapMatrixMonomials
+import HSTZ.ContainedAttachmentMatrixCoefficient
+import HSTZ.ContainedSeparatedDual
+import HSTZ.ContainedComplementSupport
+import HSTZ.WitnessCorePositionSector
+import HSTZ.WitnessPairStabilizer
+import HSTZ.WitnessPairInducedSupport
+import HSTZ.WitnessCapacityKronecker
+import HSTZ.WitnessBandSupport
+import HSTZ.BalanceProjectedCoordinate
+import HSTZ.BalanceNeighboringSupport
+import HSTZ.BalanceOutputTwoTensor
+import HSTZ.BalanceOutputTwoSupport
+import HSTZ.BalanceEvenSingletonInduction
+import HSTZ.WitnessBalanceFrontier
+import HSTZ.WitnessBalanceAverage
+import HSTZ.WitnessBalanceProjectedFactors
+import HSTZ.WitnessBalanceTailProjectedSupport
+import HSTZ.WitnessBalanceThreeSupport
+import HSTZ.WitnessBalanceUnmatchedSupport
+import HSTZ.InducedPiTower
+import HSTZ.WitnessBalancePackingPiTower
+import HSTZ.InducedPiRelabel
+import HSTZ.WitnessBalancePackingPhysicalTower
+import HSTZ.SpechtPositionTransport
+import HSTZ.WitnessBalancePackingBlockFamily
+import HSTZ.WitnessBalancePackingLocalSupport
+import HSTZ.WitnessBalancePackingSupportReturn
+import HSTZ.WitnessBalancePackingSupportMap
+import HSTZ.WitnessBalancePackingSupportCore
+import HSTZ.WitnessBalancePackingJointBridge
+import HSTZ.WitnessBalancePackingSupport
+import HSTZ.AlternatingRestriction
+import HSTZ.AlternatingSquare
+import HSTZ.PaperWitnessUnique
+import HSTZ.SmallKCoverage
+import HSTZ.PaperWitnessGe16
+
+#print axioms OAI.Saxl.PathLayer.rowAlt_formula
+#print axioms OAI.Saxl.altWord_letter_eval
+#print axioms OAI.Saxl.bandRow_path_eval
+#print axioms OAI.Saxl.bandColumn_path_eval
+#print axioms HSTZ.paperWitness_balance_support
+#print axioms HSTZ.paperWitness_oriented_pos
+#print axioms HSTZ.paperWitness_alternating_irreducible
+#print axioms HSTZ.paperWitness_alternating_square
+#print axioms HSTZ.paperWitness_parameters_unique
+#print axioms HSTZ.SmallKCoverage.smallK_numeric_coverage
+#print axioms HSTZ.balancePacking_numeric_coverage_ge5
+#print axioms HSTZ.paperWitness_parameters_ge16
+#print axioms HSTZ.paperWitness_statementA_ge16
+#print axioms HSTZ.paperWitness_alternating_ge16
